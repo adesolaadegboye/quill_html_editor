@@ -116,11 +116,13 @@ class _EditTableDropDownState extends State<EditTableDropDown> {
     }
 
     return WebViewAware(
-      child: Card(
+      child: Container(
+        height: 70,
+        child: Card(
         color: widget.dropDownColor,
         child: InkWell(
           child: Padding(
-            padding: const EdgeInsets.all(4.0),
+            padding: const EdgeInsets.all(2.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
@@ -158,6 +160,7 @@ class _EditTableDropDownState extends State<EditTableDropDown> {
           },
         ),
       ),
+     ),
     );
   }
 
