@@ -180,7 +180,7 @@ class _EditTableDropDownState extends State<EditTableDropDown> {
           content: WebViewAware(
             child: Builder(builder: (context) {
               return SizedBox(
-                width: 500,
+                width: 550,
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
