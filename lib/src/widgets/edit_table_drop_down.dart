@@ -192,7 +192,7 @@ class _EditTableDropDownState extends State<EditTableDropDown> {
                             child: Text(
                               'Edit Table',
                               style: TextStyle(
-                                  fontSize: 16, fontWeight: FontWeight.bold),
+                                  fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white ),
                             ),
                           ),
                         ),
@@ -202,7 +202,7 @@ class _EditTableDropDownState extends State<EditTableDropDown> {
                     Flexible(
                       fit: FlexFit.loose,
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                        padding: const EdgeInsets.symmetric(horizontal: 2.0),
                         child: MediaQuery.of(context).size.width < 380
                             ? ListView.builder(
                                 shrinkWrap: true,
