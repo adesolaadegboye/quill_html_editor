@@ -1098,7 +1098,7 @@ class ToolBarState extends State<ToolBar> {
                                 child: Text(
                               'Select Rows x Columns',
                               style: TextStyle(
-                                  fontSize: 16, fontWeight: FontWeight.w600, color: Colors.white),
+                                  fontSize: 16, fontWeight: FontWeight.w600, color: Colors.black),
                             )),
                             IconButton(
                                 onPressed: () => Navigator.of(context).pop(),
